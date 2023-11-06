@@ -5,7 +5,7 @@ var button = document.getElementById('entrybutton');
 function showMeText(){
   var entryinput = document.getElementById('entryinput');
   document.getElementById('textoutput').innerHTML = entryinput.value;
-  alert("Jack" + entryinput.value);
+  alert("Jack: " + entryinput.value);
 }
 button.addEventListener('click', showMeText);
 }
